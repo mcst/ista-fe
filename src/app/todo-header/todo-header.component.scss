@@ -1,0 +1,11 @@
+.todo-header-form{
+  width:100%;
+  display:flex;
+  justify-content: stretch;
+  .mat-form-field{
+    width: 100%;
+  }
+  input{
+    width:100%;
+  }
+}

@@ -1,0 +1,15 @@
+.mat-list-item {
+  padding-top:15px!important;
+  .list-item {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: space-between;
+  }
+  .check-box{
+    width:100%;
+    align-self: center;
+  }
+
+}

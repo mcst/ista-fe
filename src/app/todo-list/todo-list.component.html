@@ -1,0 +1,14 @@
+<mat-list class="list-component">
+  <mat-list-item *ngFor="let todo of getUnmarkedTodos()">
+    <div class="list-item">
+      <mat-checkbox class="check-box" [checked]="todo.finished" (click)="onCheck(todo)" >
+        {{todo.content}}
+      </mat-checkbox>
+      <div class="example-button-container">
+        <button mat-fab color="primary" aria-label="Example icon button with a delete icon" (click)="markTodo(todo)">
+          <mat-icon>delete</mat-icon>
+        </button>
+      </div>
+    </div>
+  </mat-list-item>
+</mat-list>
